@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "@/assets/logo.jpg";
 
 const navItems = [
   { label: "Начало", href: "/" },
@@ -19,7 +20,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-card/80 backdrop-blur-lg border-b">
       <div className="container flex items-center justify-between h-16">
         <Link to="/" className="font-display text-xl font-bold text-primary flex items-center gap-2">
-          <span className="text-2xl">🤖</span>
+          <img src={logo} alt="RoboPioneers лого" className="h-9 w-auto" />
           RoboPioneers
         </Link>
 

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.jpg";
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="font-display text-xl font-bold mb-4 flex items-center gap-2">
-              <span className="text-2xl">🤖</span> RoboPioneers
+              <img src={logo} alt="RoboPioneers лого" className="h-9 w-auto" /> RoboPioneers
             </h3>
             <p className="text-background/70 text-sm leading-relaxed">
               Модерно училище по роботика в Русе. LEGO Robotics, Science и AI обучение за деца от 5 до 18 години.
