@@ -39,9 +39,9 @@ const Navbar = () => {
               {item.label}
             </Link>
           ))}
-          <Link to="/контакти">
+          <Link to="/контакти#пробни-уроци">
             <Button variant="hero" size="sm" className="ml-2">
-              Безплатен пробен урок
+              Запиши се
             </Button>
           </Link>
         </div>
@@ -80,9 +80,9 @@ const Navbar = () => {
                   {item.label}
                 </Link>
               ))}
-              <Link to="/контакти" onClick={() => setMobileOpen(false)}>
+              <Link to="/контакти#пробни-уроци" onClick={() => setMobileOpen(false)}>
                 <Button variant="hero" className="w-full mt-2">
-                  Безплатен пробен урок
+                  Запиши се
                 </Button>
               </Link>
             </div>
