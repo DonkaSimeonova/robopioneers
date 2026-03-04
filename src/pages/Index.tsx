@@ -35,9 +35,9 @@ const Index = () => {
                 Подготвяме следващото поколение иноватори в град Русе.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link to="/контакти">
+                <Link to="/контакти#пробни-уроци">
                   <Button variant="hero" size="lg">
-                    Безплатен пробен урок
+                    Запиши се
                   </Button>
                 </Link>
                 <Link to="/програми">
@@ -49,7 +49,7 @@ const Index = () => {
               <div className="flex flex-wrap gap-6 mt-8 text-primary-foreground/70 text-sm">
                 <span className="flex items-center gap-1.5"><CheckCircle size={16} /> Присъствено в Русе</span>
                 <span className="flex items-center gap-1.5"><CheckCircle size={16} /> Малки групи</span>
-                <span className="flex items-center gap-1.5"><CheckCircle size={16} /> Безплатен пробен урок</span>
+                <span className="flex items-center gap-1.5"><CheckCircle size={16} /> Пробни уроци през януари и септември</span>
               </div>
             </motion.div>
             <motion.div
@@ -244,14 +244,14 @@ const Index = () => {
             viewport={{ once: true }}
           >
             <h2 className="font-display text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
-              Запишете се за безплатен пробен урок в Русе
+              Заявете интерес за пробен урок в Русе
             </h2>
             <p className="text-primary-foreground/80 text-lg mb-8 max-w-xl mx-auto">
-              Дайте на вашето дете шанс да открие света на роботиката. Първият урок е безплатен!
+              Безплатни пробни уроци провеждаме през януари и септември. Запишете се, за да ви уведомим!
             </p>
-            <Link to="/контакти">
+            <Link to="/контакти#пробни-уроци">
               <Button variant="hero" size="lg" className="animate-pulse-glow">
-                Запишете се сега
+                Запиши се
               </Button>
             </Link>
           </motion.div>
