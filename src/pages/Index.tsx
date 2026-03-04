@@ -35,7 +35,7 @@ const Index = () => {
                 Подготвяме следващото поколение иноватори в град Русе.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link to="/контакти#пробни-уроци">
+                <Link to="/запиши-се">
                   <Button variant="hero" size="lg">
                     Запиши се
                   </Button>
@@ -249,7 +249,7 @@ const Index = () => {
             <p className="text-primary-foreground/80 text-lg mb-8 max-w-xl mx-auto">
               Безплатни пробни уроци провеждаме през януари и септември. Запишете се, за да ви уведомим!
             </p>
-            <Link to="/контакти#пробни-уроци">
+            <Link to="/запиши-се">
               <Button variant="hero" size="lg" className="animate-pulse-glow">
                 Запиши се
               </Button>

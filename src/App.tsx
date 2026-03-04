@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Programs from "./pages/Programs";
 import WhyUs from "./pages/WhyUs";
 import Contact from "./pages/Contact";
+import SignUp from "./pages/SignUp";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/програми" element={<Programs />} />
           <Route path="/защо-нас" element={<WhyUs />} />
           <Route path="/контакти" element={<Contact />} />
+          <Route path="/запиши-се" element={<SignUp />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

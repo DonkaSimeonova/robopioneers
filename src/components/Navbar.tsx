@@ -10,6 +10,7 @@ const navItems = [
   { label: "Програми", href: "/програми" },
   { label: "Защо нас", href: "/защо-нас" },
   { label: "Контакти", href: "/контакти" },
+  { label: "Запиши се", href: "/запиши-се" },
 ];
 
 const Navbar = () => {
@@ -39,7 +40,7 @@ const Navbar = () => {
               {item.label}
             </Link>
           ))}
-          <Link to="/контакти#пробни-уроци">
+          <Link to="/запиши-се">
             <Button variant="hero" size="sm" className="ml-2">
               Запиши се
             </Button>
@@ -80,7 +81,7 @@ const Navbar = () => {
                   {item.label}
                 </Link>
               ))}
-              <Link to="/контакти#пробни-уроци" onClick={() => setMobileOpen(false)}>
+              <Link to="/запиши-се" onClick={() => setMobileOpen(false)}>
                 <Button variant="hero" className="w-full mt-2">
                   Запиши се
                 </Button>
