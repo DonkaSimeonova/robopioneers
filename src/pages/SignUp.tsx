@@ -54,6 +54,18 @@ const SignUp = () => {
             </div>
           </motion.div>
 
+          {/* Акцент – препоръка */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-12 rounded-2xl border-l-4 border-accent bg-accent/5 px-8 py-6"
+          >
+            <p className="text-muted-foreground leading-relaxed italic">
+              <strong className="text-foreground not-italic">Повечето родители идват при нас по препоръка.</strong>
+            </p>
+          </motion.div>
+
           {/* Форма за заявка */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
