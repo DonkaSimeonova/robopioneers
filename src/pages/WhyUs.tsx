@@ -95,15 +95,38 @@ const WhyUs = () => {
             ))}
           </motion.div>
 
+          {/* Как родителите научават за нас */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mt-16"
+            className="mt-16 max-w-3xl mx-auto rounded-2xl border-l-4 border-accent bg-accent/5 p-8 md:p-10"
           >
-            <Link to="/контакти">
+            <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-4">
+              Как родителите научават за нас
+            </h2>
+            <div className="space-y-4 text-muted-foreground leading-relaxed">
+              <p>
+                От създаването на нашето училище по роботика през <strong className="text-foreground">2015 година</strong> до днес най‑често новите ученици идват при нас <strong className="text-foreground">по препоръка от други родители</strong>.
+              </p>
+              <p>
+                През годините стотици деца в Русе преминаха през нашите курсове. Затова често се случва, когато родителите попитат в своето обкръжение за занимания по роботика, да открият познато семейство, чието дете вече е било част от нашите групи.
+              </p>
+              <p className="italic text-foreground/80 border-t border-accent/20 pt-4 mt-4">
+                Това доверие, изградено през годините, е най‑голямата оценка за нашата работа.
+              </p>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mt-12"
+          >
+            <Link to="/запиши-се">
               <Button variant="hero" size="lg">
-                Запишете се за безплатен пробен урок
+                Запиши се за пробен урок
               </Button>
             </Link>
           </motion.div>
