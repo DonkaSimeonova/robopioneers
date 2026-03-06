@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Bot, Cpu, Brain, Users, CheckCircle, Star, GraduationCap, Lightbulb } from "lucide-react";
 import heroImage from "@/assets/hero-robotics.png";
+import FAQ from "@/components/FAQ";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -234,6 +235,9 @@ const Index = () => {
           </motion.div>
         </div>
       </section>
+
+      {/* FAQ */}
+      <FAQ />
 
       {/* CTA */}
       <section className="py-20 hero-gradient">
