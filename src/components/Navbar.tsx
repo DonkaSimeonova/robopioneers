@@ -10,7 +10,6 @@ const navItems = [
   { label: "Програми", href: "/програми" },
   { label: "Защо нас", href: "/защо-нас" },
   { label: "Контакти", href: "/контакти" },
-  { label: "Запиши се", href: "/запиши-се" },
 ];
 
 const Navbar = () => {
