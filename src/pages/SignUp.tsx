@@ -28,6 +28,18 @@ const SignUp = () => {
 
       <section className="py-20">
         <div className="container max-w-3xl">
+          {/* График на занятията */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-12 rounded-2xl border-l-4 border-accent bg-accent/5 px-8 py-6"
+          >
+            <p className="text-muted-foreground leading-relaxed">
+              Занятията се провеждат по време на учебната година по предварително изготвен график. Групите стартират заниманията си от <strong className="text-foreground">м. октомври</strong> за първия учебен срок и от <strong className="text-foreground">м. февруари</strong> за втория учебен срок.
+            </p>
+          </motion.div>
+
           {/* Пробни уроци */}
           <motion.div
             id="пробни-уроци"
