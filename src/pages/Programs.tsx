@@ -141,6 +141,16 @@ const Programs = () => {
                     </div>
                     <p className="text-muted-foreground text-sm">{program.groupSize}</p>
                   </div>
+                  <div className="rounded-xl overflow-hidden card-shadow">
+                    <img
+                      src={program.image}
+                      alt={program.imageAlt}
+                      loading="lazy"
+                      width={640}
+                      height={896}
+                      className="w-full h-auto object-cover"
+                    />
+                  </div>
                 </motion.div>
               </motion.div>
             ))}
