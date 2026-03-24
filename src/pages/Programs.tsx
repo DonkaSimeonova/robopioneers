@@ -3,6 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Lightbulb, Cpu, Star, Clock, Users, Award } from "lucide-react";
+import program57 from "@/assets/program-5-7.jpg";
+import program811 from "@/assets/program-8-11.jpg";
+import program1218 from "@/assets/program-12-18.jpg";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -23,6 +26,8 @@ const programs = [
     color: "bg-success",
     duration: "1 час/седмица",
     groupSize: "До 6 деца",
+    image: program57,
+    imageAlt: "Деца на 5-7 години в курс по LEGO роботика в Русе",
   },
   {
     age: "8–11 години",
@@ -34,6 +39,8 @@ const programs = [
     color: "bg-primary",
     duration: "1.5 часа/седмица",
     groupSize: "До 8 деца",
+    image: program811,
+    imageAlt: "Деца на 8-11 години програмират LEGO роботи в Русе",
   },
   {
     age: "12–18 години",
@@ -45,6 +52,8 @@ const programs = [
     color: "bg-accent",
     duration: "2 часа/седмица",
     groupSize: "До 8 ученика",
+    image: program1218,
+    imageAlt: "Тийнейджъри в напреднал курс по роботика и AI в Русе",
   },
 ];
 
@@ -131,6 +140,16 @@ const Programs = () => {
                       <span className="font-semibold text-sm">Размер на групата</span>
                     </div>
                     <p className="text-muted-foreground text-sm">{program.groupSize}</p>
+                  </div>
+                  <div className="rounded-xl overflow-hidden card-shadow">
+                    <img
+                      src={program.image}
+                      alt={program.imageAlt}
+                      loading="lazy"
+                      width={640}
+                      height={896}
+                      className="w-full h-auto object-cover"
+                    />
                   </div>
                 </motion.div>
               </motion.div>
