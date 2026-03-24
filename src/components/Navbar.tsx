@@ -9,6 +9,7 @@ const navItems = [
   { label: "Начало", href: "/" },
   { label: "Програми", href: "/програми" },
   { label: "Защо нас", href: "/защо-нас" },
+  { label: "Екип", href: "/екип" },
   { label: "Контакти", href: "/контакти" },
 ];
 
