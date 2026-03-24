@@ -23,6 +23,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/програми" element={<Programs />} />
           <Route path="/защо-нас" element={<WhyUs />} />
+          <Route path="/екип" element={<Team />} />
           <Route path="/контакти" element={<Contact />} />
           <Route path="/запиши-се" element={<SignUp />} />
           <Route path="*" element={<NotFound />} />
