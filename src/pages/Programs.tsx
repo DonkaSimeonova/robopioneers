@@ -3,6 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Lightbulb, Cpu, Star, Clock, Users, Award } from "lucide-react";
+import program57 from "@/assets/program-5-7.jpg";
+import program811 from "@/assets/program-8-11.jpg";
+import program1218 from "@/assets/program-12-18.jpg";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
