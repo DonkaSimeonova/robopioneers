@@ -112,7 +112,7 @@ const Programs = () => {
                       </li>
                     ))}
                   </ul>
-                  <Link to="/контакти">
+                  <Link to="/запиши-се">
                     <Button variant="hero">Запишете се</Button>
                   </Link>
                 </motion.div>
