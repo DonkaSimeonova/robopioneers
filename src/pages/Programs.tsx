@@ -26,6 +26,8 @@ const programs = [
     color: "bg-success",
     duration: "1 час/седмица",
     groupSize: "До 6 деца",
+    image: program57,
+    imageAlt: "Деца на 5-7 години в курс по LEGO роботика в Русе",
   },
   {
     age: "8–11 години",
@@ -37,6 +39,8 @@ const programs = [
     color: "bg-primary",
     duration: "1.5 часа/седмица",
     groupSize: "До 8 деца",
+    image: program811,
+    imageAlt: "Деца на 8-11 години програмират LEGO роботи в Русе",
   },
   {
     age: "12–18 години",
@@ -48,6 +52,8 @@ const programs = [
     color: "bg-accent",
     duration: "2 часа/седмица",
     groupSize: "До 8 ученика",
+    image: program1218,
+    imageAlt: "Тийнейджъри в напреднал курс по роботика и AI в Русе",
   },
 ];
 
