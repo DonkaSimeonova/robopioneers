@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Programs from "./pages/Programs";
 import WhyUs from "./pages/WhyUs";
 import Contact from "./pages/Contact";
+import Team from "./pages/Team";
 import SignUp from "./pages/SignUp";
 import NotFound from "./pages/NotFound";
 
