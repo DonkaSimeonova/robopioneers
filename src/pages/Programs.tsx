@@ -88,9 +88,15 @@ const Programs = () => {
             viewport={{ once: true }}
             className="max-w-4xl mx-auto mb-16 space-y-4 text-muted-foreground leading-relaxed text-lg"
           >
-            <p>
-              Нашите учебни програми са разработени по собствена методика, изградена върху дългогодишния ни преподавателски опит и практиката ни в работата с деца. В обучението използваме материалите на <strong className="text-foreground">LEGO Education</strong>, като внедряваме и най-новите им програми, свързани с Наука, изкуствен интелект и компютърни науки.
-            </p>
+              <p>
+                Нашите учебни програми са разработени по собствена методика, изградена върху дългогодишния ни преподавателски опит и практиката ни в работата с деца. В обучението използваме материалите на <strong className="text-foreground">LEGO Education</strong>, като внедряваме и най-новите им програми, свързани с Наука, изкуствен интелект и компютърни науки.
+              </p>
+              <p>
+                Занятията се водят от преподаватели с опит в образованието и STEM областите.{" "}
+                <Link to="/екип" className="inline-flex items-center gap-1 font-medium text-primary hover:text-primary/80 transition-colors">
+                  Научете повече за екипа →
+                </Link>
+              </p>
           </motion.div>
           <div className="flex flex-col gap-16">
             {programs.map((program, i) => (

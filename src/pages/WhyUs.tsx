@@ -67,6 +67,12 @@ const WhyUs = () => {
             <p>
               Избирайки нашето училище по роботика, вие избирате среда с опит, методика и ясна мисия – <strong className="text-foreground">да изграждаме уверени, мислещи и търсещи млади хора</strong>, готови не просто да посрещнат бъдещето, а да бъдат част от неговото създаване.
             </p>
+            <p>
+              Нашата методика се прилага от екип с богат преподавателски и технологичен опит.{" "}
+              <Link to="/екип" className="inline-flex items-center gap-1 font-medium text-primary hover:text-primary/80 transition-colors">
+                Вижте екипа →
+              </Link>
+            </p>
           </motion.div>
         </div>
       </section>

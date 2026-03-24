@@ -116,6 +116,11 @@ const Index = () => {
                 </div>
                 <h3 className="font-display font-semibold text-lg mb-2">{item.title}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">{item.desc}</p>
+                {item.title === "Учители по професия" && (
+                  <Link to="/екип" className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:text-primary/80 mt-2 transition-colors">
+                    Запознайте се с нашите преподаватели →
+                  </Link>
+                )}
               </motion.div>
             ))}
           </motion.div>
