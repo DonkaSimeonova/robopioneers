@@ -154,6 +154,11 @@ const Team = () => {
               <p>
                 Неговият път – <strong className="text-foreground">от ученик до преподавател и инженер</strong> – е реално доказателство, че обучението по роботика може да се превърне в професионален път. Това е историята, която ни мотивира всеки ден.
               </p>
+              <p>
+                <Link to="/истории" className="inline-flex items-center gap-1 font-medium text-primary hover:text-primary/80 transition-colors">
+                  Вижте как се развиват нашите ученици →
+                </Link>
+              </p>
             </div>
           </motion.div>
         </div>

@@ -73,6 +73,12 @@ const WhyUs = () => {
                 Вижте екипа →
               </Link>
             </p>
+            <p>
+              Родителите ни се доверяват – зад всяко дете стои собствена история.{" "}
+              <Link to="/истории" className="inline-flex items-center gap-1 font-medium text-primary hover:text-primary/80 transition-colors">
+                Вижте реални истории на наши ученици →
+              </Link>
+            </p>
           </motion.div>
         </div>
       </section>

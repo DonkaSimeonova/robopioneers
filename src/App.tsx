@@ -8,6 +8,7 @@ import Programs from "./pages/Programs";
 import WhyUs from "./pages/WhyUs";
 import Contact from "./pages/Contact";
 import Team from "./pages/Team";
+import Stories from "./pages/Stories";
 import SignUp from "./pages/SignUp";
 import NotFound from "./pages/NotFound";
 
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/програми" element={<Programs />} />
           <Route path="/защо-нас" element={<WhyUs />} />
           <Route path="/екип" element={<Team />} />
+          <Route path="/истории" element={<Stories />} />
           <Route path="/контакти" element={<Contact />} />
           <Route path="/запиши-се" element={<SignUp />} />
           <Route path="*" element={<NotFound />} />

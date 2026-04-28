@@ -121,6 +121,11 @@ const Index = () => {
                     Запознайте се с нашите преподаватели →
                   </Link>
                 )}
+                {item.title === "От 2015 г. в Русе" && (
+                  <Link to="/истории" className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:text-primary/80 mt-2 transition-colors">
+                    Родителите ни се доверяват – вижте реални истории →
+                  </Link>
+                )}
               </motion.div>
             ))}
           </motion.div>
